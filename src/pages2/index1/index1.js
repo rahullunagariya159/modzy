@@ -70,10 +70,10 @@ class Index1 extends Component {
         {/* import Clients */}
         <Clients />
 
-        {/* import Pricing */}
+        {/* import Post */}
         <Posts />
 
-        {/* import Pricing */}
+        {/* import ContactUs */}
         <ContactUs />
 
         {/* import Footer */}

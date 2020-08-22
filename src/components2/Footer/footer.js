@@ -16,7 +16,6 @@ class Footer extends Component {
         links: [
           { linkTitle: "Tranding", link: "/" },
           { linkTitle: "Popular", link: "#" },
-          { linkTitle: "Job Opening", link: "#" },
           { linkTitle: "Customers", link: "#" },
           { linkTitle: "Features", link: "#" },
         ],

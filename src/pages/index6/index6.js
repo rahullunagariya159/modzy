@@ -67,7 +67,7 @@ class Index6 extends Component {
         {/* import Pricing */}
         <Pricing />
 
-        {/* import Pricing */}
+        {/* import ContactUs */}
         <ContactUs />
 
         {/* import Footer */}

@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import Image1 from "../../assets/images/post/img-1.jpg";
 import Image2 from "../../assets/images/post/img-2.jpg";
 import Image3 from "../../assets/images/post/img-3.jpg";
+import postBG from "../../assets/images/post-bg.png";
 
 class Posts extends Component {
   state = {
@@ -70,15 +71,15 @@ class Posts extends Component {
         <section
           className="section bg-light"
           id="news"
-          style={{ background: "url(images/post-bg.png) center center" }}
+          style={{ background: `url(${postBG}) center center` }}
         >
-          <div className="container">
+          <Container>
             <SectionTitle
               title="Latest Post"
               description="Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed consequuntur as sequi nesciunt."
             />
-            <div className="row">
-              <div className="col-lg-4">
+            <Row className="row">
+              <Col lg={4}>
                 <div className="post-content bg-white rounded mt-4">
                   <img
                     src={Image1}
@@ -103,21 +104,21 @@ class Posts extends Component {
                     <p className="font-weight-medium f-13 text-purple text-uppercase">
                       # Travel
                     </p>
-                    <a href="#" className="text-dark font-weight-medium h5">
+                    <Link to="#" className="text-dark font-weight-medium h5">
                       The Best Traveling Place
-                    </a>
+                    </Link>
                     <p className="text-muted f-14 mt-3 mb-4">
                       Nemo enim ipsam voluptatem a that voluptas sit aspernatur
                       consequuntur...
                     </p>
-                    <a href="#" className="text-dark f-14">
+                    <Link to="#" className="text-dark f-14">
                       View Details{" "}
                       <i className="remixicon-arrow-right-line ml-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4">
+              </Col>
+              <Col lg={4}>
                 <div className="post-content bg-white rounded mt-4">
                   <img
                     src={Image2}
@@ -142,21 +143,21 @@ class Posts extends Component {
                     <p className="font-weight-medium f-13 text-purple text-uppercase">
                       # Event
                     </p>
-                    <a href="#" className="text-dark font-weight-medium h5">
+                    <Link to="#" className="text-dark font-weight-medium h5">
                       Most Popular Events
-                    </a>
+                    </Link>
                     <p className="text-muted f-14 mt-3 mb-4">
                       Quis autem vel eum iure reprehenderit qui in ea voluptate
                       velit esse quam...
                     </p>
-                    <a href="#" className="text-dark f-14">
+                    <Link to="#" className="text-dark f-14">
                       View Details{" "}
                       <i className="remixicon-arrow-right-line ml-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4">
+              </Col>
+              <Col lg={4}>
                 <div className="post-content bg-white rounded mt-4">
                   <img
                     src={Image3}
@@ -181,22 +182,22 @@ class Posts extends Component {
                     <p className="font-weight-medium f-13 text-purple text-uppercase">
                       # News
                     </p>
-                    <a href="#" className="text-dark font-weight-medium h5">
+                    <Link to="#" className="text-dark font-weight-medium h5">
                       Letest News Post
-                    </a>
+                    </Link>
                     <p className="text-muted f-14 mt-3 mb-4">
                       Et harum quidem rerum facilis est et expedita distinctio
                       nam libero tempore...
                     </p>
-                    <a href="#" className="text-dark f-14">
+                    <Link to="#" className="text-dark f-14">
                       View Details{" "}
                       <i className="remixicon-arrow-right-line ml-1" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Container>
         </section>
         {/* LETEST POST END */}
       </React.Fragment>

@@ -6,23 +6,10 @@ import { Container, Row, Col } from "reactstrap";
 import heroBgImg from "../../assets/images/hero-2-bg.png";
 
 class Section extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isOpen: false,
-    };
-    this.callModal.bind(this);
-  }
-
-  callModal = () => {
-    this.refs.child.openModal();
-  };
-
   render() {
     return (
       <React.Fragment>
         {/* HERO START */}
-
         <section
           className="hero-2-bg position-relative"
           id="home"

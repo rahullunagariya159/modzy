@@ -153,7 +153,7 @@ class ScrollspyNav extends Component {
 
   render() {
     return (
-      <div data-nav="list" className={this.props.className}>
+      <div data-nav="list" className={this.props.navCenterClass}>
         {this.props.children}
       </div>
     );

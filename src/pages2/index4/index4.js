@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import NavbarPage from "../../components/Navbar/Navbar_Page";
+import NavbarPage from "../../components2/Navbar/Navbar_Page";
 import Section from "./section";
-import Services from "../../components/Services/services";
-import Features from "../../components/Features/features";
-import Achievement from "../../components/Achievement/achievements";
-import Clients from "../../components/Clients/clients";
-import Pricing from "../../components/Pricing/pricing";
-import ContactUs from "../../components/ContactUs/contactus";
-import Footer from "../../components/Footer/footer";
+import Services from "../../components2/Services/services";
+import Features from "../../components2/Features/features";
+import Achievement from "../../components2/Achievement/achievements";
+import Clients from "../../components2/Clients/clients";
+import Posts from "../../components2/Posts/posts";
+import ContactUs from "../../components2/ContactUs/contactus";
+import Footer from "../../components2/Footer/footer";
 
 class Index4 extends Component {
   constructor(props) {
@@ -71,10 +71,10 @@ class Index4 extends Component {
         {/* import Clients */}
         <Clients />
 
-        {/* import Pricing */}
-        <Pricing />
+        {/* import Post */}
+        <Posts />
 
-        {/* import Pricing */}
+        {/* import ContactUs */}
         <ContactUs />
 
         {/* import Footer */}

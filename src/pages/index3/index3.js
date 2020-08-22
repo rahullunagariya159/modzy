@@ -73,7 +73,7 @@ class Index3 extends Component {
         {/* import Pricing */}
         <Pricing />
 
-        {/* import Pricing */}
+        {/* import ContactUs */}
         <ContactUs />
 
         {/* import Footer */}

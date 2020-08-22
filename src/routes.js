@@ -5,20 +5,18 @@ import Index4 from "./pages/index4/index4";
 import Index5 from "./pages/index5/index5";
 import Index6 from "./pages/index6/index6";
 import IndexSecond1 from "./pages2/index1/index1";
-// import Index8 from "./pages/Index8/Index8";
-// import Index9 from "./pages/Index9/Index9";
-// import Index10 from "./pages/Index10/Index10";
-// import Index11 from "./pages/Index11/Index11";
-// import Index12 from "./pages/Index12/Index12";
-// import Index13 from "./pages/Index13/Index13";
+import IndexSecond2 from "./pages2/index2/index2";
+import IndexSecond3 from "./pages2/index3/index3";
+import IndexSecond4 from "./pages2/index4/index4";
+import IndexSecond5 from "./pages2/index5/index5";
+import IndexSecond6 from "./pages2/index6/index6";
 
 const routes = [
-  // { path: "/index13", component: Index13 },
-  // { path: "/index12", component: Index12 },
-  // { path: "/index11", component: Index11 },
-  // { path: "/index10", component: Index10 },
-  // { path: "/index9", component: Index9 },
-  // { path: "/index8", component: Index8 },
+  { path: "/Indexsecond6", component: IndexSecond6 },
+  { path: "/indexsecond5", component: IndexSecond5 },
+  { path: "/indexsecond4", component: IndexSecond4 },
+  { path: "/indexsecond3", component: IndexSecond3 },
+  { path: "/indexsecond2", component: IndexSecond2 },
   { path: "/indexsecond1", component: IndexSecond1 },
   { path: "/index6", component: Index6 },
   { path: "/index5", component: Index5 },
